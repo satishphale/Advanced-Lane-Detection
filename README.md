@@ -23,21 +23,8 @@ The steps for this project are following:-
 [image6]: ./examples/example_output.jpg "Output"
 [video1]: ./project_video.mp4 "Video"
 
-## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
-
-### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
-
----
-
-### Writeup / README
-
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  [Here](https://github.com/udacity/CarND-Advanced-Lane-Lines/blob/master/writeup_template.md) is a template writeup for this project you can use as a guide and a starting point.  
-
-You're reading it!
 
 ### Camera Calibration
-
-#### 1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
 
 The code for this step is contained in the third and fourth code cell of the IPython notebook located in "./advanced_lane_finding.ipynb".  
 
@@ -74,7 +61,6 @@ I verified that my perspective transform was working as expected by drawing the 
 
 In the fit_lines() I found the left and right coefficients of lines and in method fit_continuous() used this coeffients to get the line pixel in subsequent frames.
 
-![alt text][image5]
 
 #### 5. calculation the radius of curvature of the lane and the position of the vehicle with respect to center.
 
