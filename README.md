@@ -64,4 +64,4 @@ In the fit_lines() I found the left and right coefficients of lines and in metho
 
 #### 5. calculation the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-In the curavature() method I found the radii of curvature and center.
+In the curvature() method I found the radii of curvature and center.
